@@ -1,0 +1,35 @@
+{
+  "name": "microfrontend-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akejolin/microfrontend-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akejolin/microfrontend-app/issues"
+  },
+  "homepage": "https://github.com/akejolin/microfrontend-app#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "lodash.get": "^4.4.2",
+    "lodash.isempty": "^4.4.0",
+    "node-fetch": "^2.6.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-plugin-jest": "^24.3.2",
+    "fetch-mock-jest": "^1.5.1",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
